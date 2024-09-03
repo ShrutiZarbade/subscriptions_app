@@ -12,6 +12,7 @@ data_routers.register(
 data_routers.register(
     r"unsubscribe", viewset=UnsubscribeViewSet, basename="unsubscribe",
 )
+
 # data_routers.register(
 #     r"subscription-status/?P<email>\d+)", viewset=SubscriptionStatus
 # )
